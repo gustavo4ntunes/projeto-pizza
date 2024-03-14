@@ -1,0 +1,87 @@
+body {
+  background-color: #dc2626;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  
+  text-decoration: none;
+  color: #333;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff6347;
+}
+
+section {
+  padding: 20px;
+}
+
+section h2 {
+  color: #333;
+}
+
+section ul {
+  filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+  list-style-type: none;
+  padding: 0;
+}
+
+section ul li {
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #f8f8f8;
+  text-color: #ffffff
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+.wrapper {
+  flex: 1;
+}
+
+#whatsapp{
+  border: 0;
+  width: 24px;
+  height: 24px;
+  background: url(./assets/logo-whatsapp-light.svg);
+}
+
+#instagram{
+  border: 0;
+  width: 24px;
+  height: 24px;
+  background: url(./assets/instagram-light.svg);
+}
